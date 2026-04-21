@@ -1,57 +1,143 @@
-eyra
-Introduction
-eyra is a software project developed and maintained in the repository JashanjitKaur007/eyra. It is designed as a web-based application that provides users with a set of tools to interact, contribute, and configure settings related to the application's core features. The project leverages modern development frameworks and programming languages, supporting a structured and modular architecture.
+# Eyra AI 🤖
 
-Features
-User authentication and registration workflow
-Personalized user dashboard with profile management
-Interactive web interface using HTML, CSS, and JavaScript
-API endpoints for user-related operations
-Configuration capabilities for application behavior
-Responsive design for a variety of devices
-Requirements
-Node.js (version specified in the project configuration)
-npm or yarn as a package manager
-Modern web browser for accessing the web interface
-Compatible operating systems: Windows, macOS, Linux
-[!IMPORTANT] Ensure you have Node.js and npm/yarn installed before proceeding with installation.
+A full-stack AI-powered web application with authentication, chat features, face analysis, and user history tracking. Built using the **MERN stack** with a modern UI and scalable architecture.
 
-Installation
-Follow these steps to install eyra on your local machine:
+## 📌 Project Overview
 
-1. Clone the Repository | Clone `JashanjitKaur007/eyra` using `git clone https://github.com/JashanjitKaur007/eyra.git`
-2. Change Directory | Navigate to the project folder using `cd eyra`
-3. Install Dependencies | Run `npm install` or `yarn` to install all required packages
-4. Configure Environment | Set up environment variables as required by the application
-5. Start the Application | Launch the app using `npm start` or the specified command in the documentation
-[!NOTE] Refer to the configuration section for details on setting up environment variables.
+Eyra is a full-stack AI assistant platform that allows users to:
+- Chat with AI
+- Perform face analysis
+- Track conversation history
+- Manage user profiles
+- Explore insights and analytics
 
-Contributing
-Contributions to eyra are welcome. Please follow these guidelines:
+It includes a React frontend and a Node.js/Express backend connected to MongoDB.
 
-Fork the repository and create a new branch for your feature or bug fix.
-Write clear, concise commit messages.
-Ensure your code follows the existing style and includes appropriate tests if necessary.
-Submit a pull request with a descriptive message outlining your changes.
-[!TIP] Check for existing issues or open discussions to avoid duplicating work.
+## 🏗️ Tech Stack
 
-Configuration
-The application supports configuration through environment variables and configuration files. These settings allow you to customize database connections, server ports, and other critical aspects of the application.
+### Frontend
+- React (Vite)
+- React Router DOM
+- Tailwind CSS
+- Framer Motion
+- i18next
+- Recharts
+- Axios
 
-Create a .env file at the root of the project.
-Add required configuration keys as specified in the project documentation or sample configuration file (.env.example if available).
-Restart the application after modifying configuration values.
-[!CAUTION] Never commit sensitive information, such as API keys or passwords, to the repository.
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT Authentication
+- Nodemon
 
-Usage
-After successful installation and configuration, you can use eyra as follows:
+### Tools
+- Concurrently
+- dotenv
 
-Launch the application using the start command.
-Open your web browser and navigate to the server address (e.g., http://localhost:3000).
-Register for a new account or log in if you are an existing user.
-Access your dashboard to manage your profile and use the available features.
-Use the application's API endpoints for programmatic access where supported.
-[!WARNING] Ensure your server is running and accessible from your browser or API client.
+## ✨ Features
 
-For detailed usage instructions for each feature, refer to the in-app help or consult the provided documentation within the project files.
+### Authentication
+- Signup/Login
+- JWT-based auth
+- Protected routes
 
+### AI Chat System
+- AI chat interface
+- Saved conversation history
+- Persistent sessions
+
+### Face Analysis
+- Image upload
+- AI processing
+
+### Dashboard & Analytics
+- User activity tracking
+- History viewing
+- Charts and insights
+
+### Multi-language Support
+- i18n integration
+
+### Modern UI
+- Responsive design
+- Framer Motion animations
+- Component-based structure
+
+## ⚙️ How It Works
+
+1. User logs in or registers  
+2. JWT token is created and stored  
+3. Frontend sends requests via Axios  
+4. Backend handles API requests  
+5. MongoDB stores users, chats, and results  
+6. AI responses are returned to frontend  
+
+## 🚀 How to Run Locally
+
+### Clone Repository
+git clone https://github.com/JashanjitKaur007/eyra.git
+cd eyra
+
+### Install Root Dependencies
+npm install
+
+### Backend Setup
+cd backend
+npm install
+
+Create `.env`:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Run backend:
+npm run dev
+
+### Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+### Run Both Together
+npm run dev
+
+Backend: http://localhost:5000  
+Frontend: http://localhost:5173  
+
+## 📁 Project Structure
+
+eyra/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── App.jsx
+│
+├── package.json
+└── README.md
+
+## 📸 Screenshots
+
+Add screenshots here later.
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first.
+
+## 📜 License
+
+MIT License
+
+## 👨‍💻 Author
+
+Jashanjit Kaur  
+GitHub: https://github.com/JashanjitKaur007
