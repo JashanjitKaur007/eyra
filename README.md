@@ -1,3 +1,5 @@
+<img width="1209" height="1300" alt="image" src="https://github.com/user-attachments/assets/3c7c1faf-3d27-4552-947e-ec758f55f4fb" /><img width="1209" height="1300" alt="image" src="https://github.com/user-attachments/assets/bd6e3670-b114-4a74-9623-53e89ff665a3" />
+
 # Eyra AI 🤖
 
 A full-stack AI-powered web application with authentication, chat features, face analysis, and user history tracking. Built using the **MERN stack** with a modern UI and scalable architecture.
