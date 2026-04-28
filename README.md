@@ -1,5 +1,20 @@
 # Eyra: AI-Powered Mental Health Support Platform
 
+> **Project Title:** Eyra  
+> **Project Type:** Copyright  
+> **Submission Status:** Ready for Submission 
+
+### 👥 Team Details
+
+|        Name        | Roll Number |
+| :----------------: | :---------: |
+| **Jashanjit Kaur** | 2210990440  |
+|  **Vrinda Verma**  | 2210990969  |
+| **Aayush Sharma**  | 2210991138  |
+|  **Yashasvi Nag**  | 2210990975  |
+
+---
+
 An intelligent, accessible, and user-centric platform designed to provide evidence-based mental health support through conversational AI, clinically-grounded assessments, and intuitive design.
 
 ---
